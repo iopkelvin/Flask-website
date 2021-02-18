@@ -52,9 +52,9 @@ def content():
 # Start the server, continuously listen to requests.
 # We'll have a running web app!
 
-if __name__ == "__main__":
-    # For local development:
-    # app.run(debug=True)
-    app.run()
+# if __name__ == "__main__":
+#     # For local development:
+#     # app.run(debug=True)
+#     app.run()
     # For public web serving:
     # app.run(host='0.0.0.900')
