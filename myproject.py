@@ -55,7 +55,6 @@ def content():
 if __name__ == "__main__":
     # For local development:
     # app.run(debug=True)
-    app.run(host = '0.0.0.0')
-
+    app.run()
     # For public web serving:
     # app.run(host='0.0.0.900')
